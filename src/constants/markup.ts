@@ -85,8 +85,8 @@ export const FOOTER = `
       <a class="footer__logo" target="_blank" href="https://rs.school/">
         <img src="./assets/svg/rs_school_js.svg" alt="logo">
       </a>
-        <a class="footer__link" target="_blank" href="https://egor-dubovik.github.io/cv/">EGOR DUBOVIK (CV)</a>
-      <a class="footer__link" target="_blank" href="https://t.me/ego_dreamer">contact me</a>
+        <a class="footer__link" target="_blank" href="https://www.linkedin.com/in/egor-dubovik-475a9223b/">EGOR DUBOVIK</a>
+      <a class="footer__link" target="_blank" href="https://t.me/ego_dubovik">contact me</a>
     </div>
   </footer>
 `;

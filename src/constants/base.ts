@@ -1,6 +1,6 @@
 import { Api } from '../types/base.types';
 
-export const BASE_URL = 'http://localhost:3000';
+export const BASE_URL = 'https://async-race-api-kvgd.onrender.com';
 
 export const API: Api = {
   garage: `${BASE_URL}/garage`,

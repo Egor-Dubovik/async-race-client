@@ -14,7 +14,7 @@ export enum Numbers {
 }
 
 export const INITIAL_STEP = 0;
-export const GENERATE_CARS_NUMBER = 100;
+export const GENERATE_CARS_NUMBER = 7;
 export const CAR_WIDTH = 170;
 
 export const EQUALIZATION_FACTOR = 170;
