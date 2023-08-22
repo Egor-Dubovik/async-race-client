@@ -1,0 +1,64 @@
+.winners-page {
+  padding: rem(30) 0;
+}
+.winners-page._hidden {
+  display: none;
+}
+.winners-page__title {
+  margin-bottom: rem(15);
+}
+.winners-page__pagination-page {
+  font-size: rem(16);
+  font-weight: 500;
+  margin-bottom: rem(30);
+}
+.table {
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+}
+.table__th,
+.table__td {
+  padding: rem(10) rem(30);
+  border: 1px solid $backgroundColor;
+  @media (max-width: $mobile) {
+    padding: rem(10) rem(20);
+  }
+  @media (max-width: $mobileSmall) {
+    padding: rem(5);
+    font-size: rem(16);
+  }
+}
+.table__th {
+  background: $lightRedColor;
+}
+.table__td {
+  background: #65636b;
+}
+.table-button {
+  cursor: pointer;
+  user-select: none;
+}
+.table-button._ascending::after,
+.table-button._descending::after {
+  display: inline-block;
+  margin-left: rem(5);
+  padding: rem(1) rem(8) rem(1) rem(8);
+  background-color: #ffffff3f;
+  border-radius: 50%;
+}
+.table-button._ascending::after {
+  content: "↑";
+}
+.table-button._descending::after {
+  content: "↓";
+}
+.table__td_car svg {
+  width: rem(100);
+  height: rem(40);
+  @media (max-width: $mobileSmall) {
+    width: rem(50);
+    height: rem(40);
+    padding: 0 rem(2);
+  }
+}

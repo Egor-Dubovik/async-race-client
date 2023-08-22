@@ -1,0 +1,179 @@
+.garage-page {
+  padding: rem(30) 0;
+}
+.garage-page._hidden {
+  display: none;
+}
+.controllers:not(:last-child) {
+  margin-bottom: rem(40);
+}
+.forms:not(:last-child) {
+  margin-bottom: rem(30);
+}
+.forms form:not(:last-child) {
+  margin-bottom: rem(20);
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  @media (max-width: $mobileSmall) {
+    row-gap: rem(13);
+  }
+}
+.form input:not(:last-child) {
+  margin-right: rem(20);
+}
+.form__input-name {
+  max-width: rem(250);
+  padding: rem(5) rem(10);
+  border-radius: rem(5);
+  font-size: rem(16);
+}
+.form__input-color {
+  min-width: rem(60);
+  min-height: rem(35);
+  cursor: pointer;
+}
+.controllers__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: rem(20);
+  row-gap: rem(13);
+  @media (max-width: $mobileSmall) {
+    flex-direction: column;
+  }
+}
+.item button {
+  @media (max-width: $mobileSmall) {
+    width: 100%;
+    padding: rem(15) 0;
+  }
+}
+.button__control {
+  background-color: $buttonControlColor;
+}
+.button__control:hover {
+  background-color: $buttonControlColor;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+.button__control:disabled:hover {
+  background-color: $buttonDisabledColor;
+  box-shadow: 0 0 0;
+  cursor: default;
+}
+.garage {
+  position: relative;
+}
+.garage__title {
+  margin-bottom: rem(5);
+}
+.garage__pagination-page {
+  font-size: rem(16);
+  font-weight: 500;
+  margin-bottom: rem(30);
+}
+.garage__races li:not(:last-child) {
+  margin-bottom: rem(30);
+  @media (max-width: $mobileSmall) {
+    margin-bottom: rem(25);
+  }
+}
+.garage__race {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  line-height: 1.5;
+}
+.race__select-car-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: rem(10);
+  margin-bottom: rem(15);
+}
+.race__road {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.race__car-engine-panel {
+  display: flex;
+  flex-direction: column;
+}
+.engine-panel {
+  margin: 0 rem(15) rem(10) 0;
+}
+.engine-panel button:not(:last-child) {
+  margin-bottom: rem(5);
+}
+.engine-panel__button {
+  padding: rem(5);
+  border-radius: rem(5);
+  font-weight: 600;
+  color: $mainColor;
+}
+.engine-panel__button:disabled {
+  background-color: rgba(126, 126, 126, 0.3);
+  cursor: default;
+}
+.engine-panel__button:disabled:hover {
+  box-shadow: none;
+}
+.engine-panel__button:hover {
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+}
+.engine-panel__button_start-engine {
+  background-color: $buttonControlColor;
+}
+.engine-panel__button_stop-engine {
+  background-color: $lightRedColor;
+}
+.race__car {
+  position: relative;
+  width: rem(100);
+  height: rem(50);
+  @media (max-width: $mobileSmall) {
+    width: rem(80);
+    height: rem(40);
+  }
+}
+.race__car svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.race__finish {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: rem(40);
+  height: rem(50);
+}
+.race__finish img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.garage__win-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: rem(36);
+  line-height: 1.4;
+  letter-spacing: rem(2);
+  transition: all 0.3s ease;
+}
+.garage__win-message._hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+._selected {
+  background-color: $mainHoverColor;
+}

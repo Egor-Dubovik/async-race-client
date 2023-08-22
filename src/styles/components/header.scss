@@ -1,0 +1,37 @@
+.header {
+  padding: rem(30) 0;
+  @media (max-width: $tablet) {
+    padding: rem(20) 0;
+  }
+  @media (max-width: $mobile) {
+    padding: rem(10) 0;
+  }
+}
+.header__container {
+  display: flex;
+  align-items: flex-end;
+  gap: rem(30);
+  @media (max-width: $mobile) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: rem(20);
+  }
+}
+.header__content {
+  display: flex;
+  align-items: flex-end;
+  gap: rem(30);
+}
+.header__icon {
+  width: rem(100);
+  height: rem(80);
+  @media (max-width: $mobile) {
+    width: rem(80);
+    height: rem(60);
+  }
+}
+.header__title {
+}
+.header__buttons button:not(:last-child) {
+  margin-right: rem(10);
+}
