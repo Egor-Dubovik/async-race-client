@@ -6,7 +6,7 @@ TypeScript, SCSS, Webpack, Babel
 ### Links
 [Deployment](http://egolab.alwaysdata.net/)
 
-![Image preview](https://github.com/Egor-Dubovik/async-race-client/blob/main/src/assets/images/asyncrace-app-screen.jpg)|
+![Image preview](https://github.com/Egor-Dubovik/async-race-client/blob/main/src/assets/images/asyncrace-app-screen.jpg)
 
 ### About
 - There are two views on the site: "Garage" and "Winners".
