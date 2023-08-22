@@ -1,4 +1,4 @@
-# Async race game
+# Async-race game
 
 ### Technology stack
 TypeScript, SCSS, Webpack, Babel
